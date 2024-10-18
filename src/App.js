@@ -4,32 +4,24 @@ import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 import Students from "./students/Students";
 import { generateStudents } from "./students/StudentsDB";
+import Sidebar from "./components/Sidebar"; 
+import "./index.css";
 
-
-import "./index.css"
-
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      students: generateStudents(),
-    };
-  }
-
-  render() {
-    return (
-      <>
-        <div className="wrapper">
-        <Header/>
+const App = () => {
+  return (
+    <div className="wrapper" style={{ display: 'flex' }}>
+      <Sidebar /> 
+      <div style={{ flex: 1 }}>
+        <Header />
         <Routes>
-          
-          <Route path="/students" element={<Students students={this.state.students}/>} />
+          <Route path="/students" element={<Students students={generateStudents()} />} />
         </Routes>
         <Footer />
       </div>
-      </>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default App;
+
+

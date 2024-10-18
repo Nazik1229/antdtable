@@ -1,0 +1,31 @@
+{
+    "welcome": "Кош келиңиздер",
+    "students1": "Студенттер",
+    "info": "Маалымат",
+    "contacts": "Байланыш",
+    "students": {
+        "fullName": "Аты-жөнү",
+        "group": "Группа",
+        "grade": "Баасы",
+        "dateOfBirth": "Туулган күнү",
+        "photo": "Сүрөт",
+        "actions": "Иш-аракеттер",
+        "edit": "Редактирлөө",
+        "addStudent": "Студент кошуу",
+        "modalTitleEdit": "Студентти редакторлоо",
+        "modalTitleAdd": "Студент кошуу",
+        "notificationSuccess": "Жарашты",
+        "notificationError": "Ката",
+        "nameRequired": "Аты-жөнүн киргизиңиз",
+        "groupRequired": "Топту киргизиңиз",
+        "gradeRequired": "Бааны киргизиңиз",
+        "ageRequired": "Туулган күндү киргизиңиз",
+        "nameLengthError": "Аты 5 символдон азыраак болбошу керек.",
+        "noChanges": "Эч кандай өзгөртүүлөр жок.",
+        "studentUpdated": "Студент ийгиликтүү жаңыртылды!",
+        "studentAdded": "Студент ийгиликтүү кошулду!",
+        "notificationErrorAdd": "Студентти кошууда/жөндөодо ката кетти."
+    }
+}
+  
+  

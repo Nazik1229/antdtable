@@ -1,0 +1,30 @@
+{
+    "welcome": "Добро пожаловать",
+    "students1": "Студенты",
+    "info": "Информация",
+    "contacts": "Контакты",
+    "students": {
+        "fullName": "ФИО",
+        "group": "Группа",
+        "grade": "Оценка",
+        "dateOfBirth": "Дата рождения",
+        "photo": "Фото",
+        "actions": "Действия",
+        "edit": "Редактировать",
+        "addStudent": "Добавить студента",
+        "modalTitleEdit": "Редактировать студента",
+        "modalTitleAdd": "Добавить студента",
+        "notificationSuccess": "Успех",
+        "notificationError": "Ошибка",
+        "nameRequired": "Пожалуйста, введите ФИО",
+        "groupRequired": "Пожалуйста, введите группу",
+        "gradeRequired": "Пожалуйста, введите оценку",
+        "ageRequired": "Пожалуйста, введите дату рождения",
+        "nameLengthError": "Имя не должно быть меньше 5 символов.",
+        "noChanges": "Ничего не обновлено.",
+        "studentUpdated": "Студент успешно обновлён!",
+        "studentAdded": "Студент успешно добавлен!",
+        "notificationErrorAdd": "Произошла ошибка при добавлении/обновлении студента."
+    }
+}
+  

@@ -1,0 +1,30 @@
+{
+    "welcome": "Welcome",
+    "students1": "Students",
+    "info": "Information",
+    "contacts": "Contacts",
+    "students": {
+        "fullName": "Full Name",
+        "group": "Group",
+        "grade": "Grade",
+        "dateOfBirth": "Date of Birth",
+        "photo": "Photo",
+        "actions": "Actions",
+        "edit": "Edit",
+        "addStudent": "Add Student",
+        "modalTitleEdit": "Edit Student",
+        "modalTitleAdd": "Add Student",
+        "notificationSuccess": "Success",
+        "notificationError": "Error",
+        "nameRequired": "Please enter full name",
+        "groupRequired": "Please enter group",
+        "gradeRequired": "Please enter grade",
+        "ageRequired": "Please enter date of birth",
+        "nameLengthError": "Name must be at least 5 characters.",
+        "noChanges": "Nothing was updated.",
+        "studentUpdated": "Student successfully updated!",
+        "studentAdded": "Student successfully added!",
+        "notificationErrorAdd": "An error occurred while adding/updating the student."
+    }
+}
+  

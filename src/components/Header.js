@@ -1,7 +1,10 @@
-import React from 'react'
-import { Link  } from 'react-router-dom' 
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
+  const { t } = useTranslation();
+
   return (
     <>
       <header>
@@ -11,13 +14,14 @@ export default function Header() {
               <Link to='/header'> NOMAD </Link>
             </ul>          
             <ul className='header_right'>
-                <Link to='/students'>Студенты</Link>
-                <Link to='/info'>Информация</Link>
-                <Link to='/contacts'>Контакты</Link>
+              <Link to='/students'>{t('students1')}</Link>
+              <Link to='/info'>{t('info')}</Link>
+              <Link to='/contacts'>{t('contacts')}</Link>
             </ul>
           </div>
         </div>
       </header>
     </>
-  )
+  );
 }
+
